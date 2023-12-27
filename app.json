@@ -1,115 +1,26 @@
-{
-
     "name": "Rename Bot",
 
-    "description": "File Rename Bot With 4GB Files Support",
+     "description": "File Rename Bot With 4GB Files Support",
 
-    "keywords": [
+     "keywords": [
 
-        "Rename",
+         "Rename",
 
-        "4GB File",
+         "4GB File",
 
-        "Telegram"
+         "Telegram"
 
-    ],
+     ],
 
-    "repository": "https://github.com/pr0fess0r99/RENAME-BOT-V3",
+     "repository": "https://github.com/pr0fess0r99/RENAME-BOT-V3",
 
-    "success_url": "https://telegram.dog/TechProjectsUpdates",
+     "success_url": "https://telegram.dog/TechProjectsUpdates",
 
-    "env": {
+     "env": {
 
-        "CHANNEL": {
+ @@ -94,14 +90,7 @@
 
-            "description": "Channel or Group user Name With @",
+              "required": true
 
-            "required":true
+         }
 
-            
-
-         },
-
-        "STRING": {
-
-            "description": "Pyrogram String Session Use  @genStr_Bot",
-
-            "required": true
-
-        },
-
-        "API_ID": {
-
-            "description": "Your APP ID From my.telegram.org ",
-
-            "required": true
-
-        },
-
-        "API_HASH": {
-
-            "description": "Your API Hash From my.telegram.org ",
-
-            "required": true
-
-        },
-
-        "TOKEN": {
-
-            "description": "Your Bot Token From @BotFather",
-
-            "required": true
-
-        },
-
-        "ADMIN": {
-
-            "description":"Add Your User ID",
-
-            "required": true
-
-        },
-
-        "DB_URL":{
-
-             "description":"Database Url Get It From Mongo DB"
-
-        },
-
-        "DB_NAME":{
-
-               "description":"Database Name ",
-
-               "required":true
-
-        },
-
-        "LOG_CHANNEL":{
-
-             "description":"Channel Id Nedd Store Files Get Your channel id from Rose @MissRose_bot",
-
-             "required": true
-
-        }
-
-        
-
-    },
-
-    "buildpacks": [
-
-      {
-
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-
-      },
-
-      {
-
-        "url": "heroku/python"
-
-      }
-
-    ]
-
-}
